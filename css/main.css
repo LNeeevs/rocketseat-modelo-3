@@ -1,0 +1,49 @@
+h1,h2,h3,h4{
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+.cont-top{
+    padding: 20px 0px;
+    background-color: dimgray;
+    font-size: 24px;
+}
+.cont-mid{
+    background-color: snow;
+    font-size: 14px;
+    padding: 20px 100px;
+}
+.cont-mid-down{
+    padding: 30px;
+    background-color: lavender;
+    font-size: 14px;
+}
+.cont-foot{
+    padding: 5px 0px;
+    background-color: black;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    bottom: 0;
+    position: fixed;
+}
+.btn-100{
+    width: 100%;
+}
+.p-title{
+    color: black;
+    font-size: 20px;
+}
+td, th{
+    border: 2px solid #DEE2E6;
+}
+a{
+    background-color: green;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid darkgreen;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}

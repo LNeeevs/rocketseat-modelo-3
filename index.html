@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RocketSeat | JS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<style>
+    .btn{
+        width: 100%;
+    }
+    .container-fluid{
+        padding: 50px 20px;
+        background-color: lightgray;
+        color: black;
+    }
+    .container-fluid-2{
+        padding: 50px 20px;
+    }
+    p{
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    tr{
+        line-height: 2.8em;
+        border: 2px solid #DEE2E6;
+    }
+    td{
+        border: 2px solid #DEE2E6;
+    }
+    thead{
+        background-color: cornflowerblue;
+    }
+</style>
+
+<body>
+    <div id="app">
+        <div class="container-fluid topo">
+            <div class="row">
+                <div class="col">
+                    <p>Digit a new ToDo here:</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-xs-12">
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col-md-2 col-xs-12">
+                    <button class="btn btn-primary">Create</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid-2">
+            <div class="row">
+                <div class="col">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Your todo's list:</th>
+                                <th><!----></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--JS INJECTION-->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="js/main-3.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
